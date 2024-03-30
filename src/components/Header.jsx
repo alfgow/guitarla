@@ -25,10 +25,8 @@ function Header() {
 								className="bg-white p-3"
 							>
 								<p className="text-center">
-									El
-									carrito
-									esta
-									vacio
+									Nada por
+									aqui
 								</p>
 								<table className="w-100 table">
 									<thead>
