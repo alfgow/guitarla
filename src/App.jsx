@@ -13,12 +13,13 @@ function App() {
 				<h2 className="text-center">
 					Nuestra Colección
 				</h2>
-
 				<div className="row mt-5">
-					<Guitar />
-					<Guitar />
-					<Guitar />
-					<Guitar />
+					{data.map((guitar) => (
+						<Guitar
+							key={guitar.id}
+							guitar={guitar}
+						/>
+					))}
 				</div>
 			</main>
 
