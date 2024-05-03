@@ -1,1 +1,10 @@
- <h1>Hola, soy Alfonso</h1>
+<style>
+body {
+    background-color: blue;
+}
+h1 {
+    color: red;
+    padding: 60px;
+} 
+</style>
+<h1>Hola, soy alfgow</h1>
